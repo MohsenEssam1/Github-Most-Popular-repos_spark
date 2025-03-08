@@ -41,21 +41,23 @@ PySpark (for Spark operations)
 ## ----------------------------------------------------------------------------------------
 ## Implementation
 
- # 1️)Extract Data
+ ### 1️)Extract Data
 
 The JSON files were loaded into a Spark DataFrame.
 
- # 2️)Transform Data
+ ### 2️)Transform Data
 
 Programming Languages Table (programming_lang)
+
 Organizations Stars Table (organizations_stars****)
+
 Search Terms Relevance Table (search_terms_relevance****)
 
- # 3️)Load Data into PostgreSQL
+ ### 3️)Load Data into PostgreSQL
 
 We installed PostgreSQL on Google Colab and wrote the transformed DataFrames into three separate tables.
 
-# 4️)Read Data from PostgreSQL
+### 4️)Read Data from PostgreSQL
 
 To verify the data was loaded correctly, we read the tables back into Spark.
 
