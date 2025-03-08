@@ -6,7 +6,9 @@ This project focuses on extracting, transforming, and loading (ETL) data from JS
 
 ### Data Source
 
-We were provided with 30 JSON files [Source Data](https://www.kaggle.com/datasets/anshulmehtakaggl/top-1000-github-repositories-for-multiple-domains?select=Spark.json), each containing repositories matching different search terms. These files include details such as:
+We were provided with 30 JSON files [Source Data](https://www.kaggle.com/datasets/anshulmehtakaggl/top-1000-github-repositories-for-multiple-domains?select=Spark.json), each containing repositories matching different search terms. 
+(![These files include details such as: ](https://github.com/user-attachments/assets/534b2d42-9b90-43ed-a237-f9a39b493d93)
+)
 
 Repository name
 
