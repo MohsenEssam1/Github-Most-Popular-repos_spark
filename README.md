@@ -1,10 +1,10 @@
 # GitHub Most Popular Repos - Data Engineering Project
 
- Project Overview
+## Project Overview
 
 This project focuses on extracting, transforming, and loading (ETL) data from JSON files containing information about the top-starred GitHub repositories. The goal is to analyze these repositories based on programming languages, organization accounts, and search term relevance, then store the results in a PostgreSQL database using Apache Spark.
 
-### Data Source
+## Data Source
 
 We were provided with 30 JSON files [Source Data](https://www.kaggle.com/datasets/anshulmehtakaggl/top-1000-github-repositories-for-multiple-domains?select=Spark.json), each containing repositories matching different search terms.These files include details such as:
 
@@ -12,7 +12,7 @@ We were provided with 30 JSON files [Source Data](https://www.kaggle.com/dataset
 (![These files include details such as: ](https://github.com/user-attachments/assets/534b2d42-9b90-43ed-a237-f9a39b493d93)
 )
 
-# Key Objectives
+## Key Objectives
 
 Create a table for programming languages (programming_lang)
 
@@ -28,7 +28,7 @@ Stores the relevance score for each search term, calculated using:
 
 
 
-# Technologies Used
+## Technologies Used
 
 Apache Spark (for data processing)
 
