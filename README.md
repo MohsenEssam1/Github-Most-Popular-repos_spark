@@ -38,7 +38,6 @@ Google Colab (for running the notebook)
 
 PySpark (for Spark operations)
 
-## ----------------------------------------------------------------------------------------
 ## Implementation
 
  ### 1️)Extract Data
@@ -60,8 +59,6 @@ We installed PostgreSQL on Google Colab and wrote the transformed DataFrames int
 ### 4️)Read Data from PostgreSQL
 
 To verify the data was loaded correctly, we read the tables back into Spark.
-
-## -----------------------------------------------------------------------------------------------
 
 ## Results & Insights
 
